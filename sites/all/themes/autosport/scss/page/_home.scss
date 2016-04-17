@@ -1,0 +1,47 @@
+.view-id-home {
+  .mega,
+  .medium,
+  .mini {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  img {
+    border: 1px solid #000;
+    border-right: 0;
+    border-bottom: 0;
+  }
+  .grid-content {
+    position: absolute;
+    top: 0;
+    z-index: 9999;
+    width: 300px;
+    color: #FFF;
+    h3 {
+      font-size: 1.2em;
+      font-weight: 600;
+      a {
+        color: #FFF;
+      }
+    }
+    a {
+      color: #FC0;
+      font-size: .8em;
+    }
+    .warp {
+      padding: 10px;
+    }
+  }
+  .mega {
+    h3 {
+      font-size: 1.6em;
+      line-height: 1.1;
+    }
+  }
+  .mini .grid-content {
+    width: 150px;
+    line-height: 1.2;
+    h3 {
+      font-size: 1em;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.form-inline-field {
+  display: block;
+}
+.form-inline-field:before,
+.form-inline-field:after {
+  content: " ";
+  display: table;
+}
+.form-inline-field:after {
+  clear: both;
+}
+.form-inline-field .form-item {
+  float: left;
+  margin-right: 10px !important;
+}
+.form-inline-field .form-item .form-item {
+  float: none;
+  margin-right: auto;
+  padding: 0;
+}
+.field-name-field-date .date-no-float {
+  float: left;
+  width: auto;
+}
+.field-name-field-date .date-no-float.start-date-wrapper {
+  clear: both;
+}
+.field-name-field-date .date-no-float.end-date-wrapper {
+  clear: none;
+}
+.field-name-field-date .date-no-float.end-date-wrapper label {
+  float: left;
+}
+.field-name-field-date .date-no-float.end-date-wrapper .date-padding {
+}
+.form-inline-field select[multiple="multiple"] {
+  width: 110px;
+  height: 160px;
+}
+.form-inline-checkbox .form-checkboxes {
+  width: 100%;
+}
+.form-inline-checkbox .form-checkboxes .form-type-checkbox {
+  display: inline-block;
+  width: 30%;
+  margin: 0;
+  padding: 0;
+}
+.form-inline-checkbox .form-checkboxes .form-item label.option {
+  line-height: 1.75;
+}

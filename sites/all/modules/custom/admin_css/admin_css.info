@@ -1,0 +1,4 @@
+name = Admin CSS
+description = Adds CSS Classes to admin pages
+core = 7.x
+package = Custom
