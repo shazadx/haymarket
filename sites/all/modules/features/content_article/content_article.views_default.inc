@@ -297,13 +297,12 @@ function content_article_views_default_views() {
   /* Display: Attachment 2 */
   $handler = $view->new_display('attachment', 'Attachment 2', 'attachment_4');
   $handler->display->display_options['defaults']['css_class'] = FALSE;
-  $handler->display->display_options['css_class'] = 'medium-8 large-2 columns medium';
+  $handler->display->display_options['css_class'] = 'small-12 medium-4 large-4 columns medium ';
   $handler->display->display_options['pager']['type'] = 'some';
   $handler->display->display_options['pager']['options']['items_per_page'] = '1';
   $handler->display->display_options['pager']['options']['offset'] = '6';
   $handler->display->display_options['defaults']['style_plugin'] = FALSE;
   $handler->display->display_options['style_plugin'] = 'semanticviews_default';
-  $handler->display->display_options['style_options']['row']['class'] = 'small-12 medium-6 large-12 columns mini';
   $handler->display->display_options['style_options']['row']['first_class'] = '';
   $handler->display->display_options['style_options']['row']['last_class'] = '';
   $handler->display->display_options['style_options']['row']['striping_classes'] = '';
